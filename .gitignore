@@ -1,0 +1,9 @@
+# images
+/assets
+
+# vs-code files
+/__pycache__
+
+# others 
+*.txt
+/old
