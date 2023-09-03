@@ -14,7 +14,20 @@
         <button type="button" id="btnDeepSky" class="btn btn-dark mr-3">Ciel profond</button>
         <button type="button" id="btnPlanet" class="btn btn-dark ml-3">Planétaire</button>
     </div>
+    <div class="text-center"> 
+        <img src="{{url_for('static', filename='img/Andro.jpg')}}", class="astro-img"/>
+        <img src="{{url_for('static', filename='img/Astra_image_traitement.jpg')}}", class="astro-img"/>
+        <img src="{{url_for('static', filename='img/IC434.jpg')}}", class="astro-img"/>
+    </div>
 
-    
+    <!-- Back to top button -->
+    <button
+    type="button"
+    class="btn btn-danger btn-floating btn-lg"
+    id="btn-back-to-top"
+    >
+    <i class="fas fa-arrow-up"></i>
+    </button>
+
 
 {% endblock %}
